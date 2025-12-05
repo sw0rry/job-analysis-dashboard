@@ -169,7 +169,7 @@ with c_chart2:
 
         if counts:
             wc = WordCloud(
-                font_path="msyh.ttc",
+                # font_path="msyh.ttc",
                 width=500,
                 height=400,
                 background_color="white",
@@ -228,3 +228,4 @@ if not filtered_df.empty:
         hide_index=True,  # 隐藏索引列 0,1,2...
         use_container_width=True,
     )
+
