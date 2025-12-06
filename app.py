@@ -8,8 +8,7 @@ st.set_page_config(page_title="招聘数据看板", layout="wide")
 st.title("📊 招聘数据看板")
 
 # 自动定位文件路径 (同级目录下的 xlsx)
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DEFAULT_FILE = os.path.join(BASE_DIR, "nowcoder_ALL_jobs_analysis.xlsx")
+DEFAULT_FILE = "nowcoder_ALL_jobs_analysis.xlsx"
 
 
 def clean_monthly_salary(row):
@@ -125,3 +124,4 @@ if selected_jobs:
         )
 else:
     st.info("请在左侧勾选至少一个岗位")
+
