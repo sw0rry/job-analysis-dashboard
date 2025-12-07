@@ -1,9 +1,8 @@
 streamlit
 pandas
 plotly
-wordcloud
-matplotlib
 openpyxl
-re
-platform
-os
+requests
+beautifulsoup4
+matplotlib
+wordcloud
