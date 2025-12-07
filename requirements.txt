@@ -4,3 +4,6 @@ plotly
 wordcloud
 matplotlib
 openpyxl
+re
+platform
+os
